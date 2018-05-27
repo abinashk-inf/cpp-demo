@@ -1,1 +1,1 @@
-# cpp-demo
+C++ implementations to clear basic concepts
