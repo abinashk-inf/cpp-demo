@@ -3,7 +3,7 @@ template <class T>
 class smart_ptr{
   T *ptr;
   // a single owner allowed
-  /*better implementation than delete
+  /*better implementation than private
   They're basically different things.
   private tells you that only members of the class can call that method or access that variable (or friends of course).
   In this case, it's legal for a static method of that class (or any other member) to call a private constructor of a class. This doesn't hold for deleted constructors.
